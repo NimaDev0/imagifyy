@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+* {
+  font-family: "DanaVF";
+}
+
+.placeholder-color {
+  color: #e0e0e0;
+  font-weight: 300;
+}
+/* اندازه اسکرول بار */
+::-webkit-scrollbar {
+  width: 5px; /* ضخامت اسکرول عمودی */
+  height: 5px; /* ضخامت اسکرول افقی */
+}
+
+/* پس‌زمینه مسیر اسکرول */
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* رنگ پس‌زمینه */
+  border-radius: 10px;
+}
+
+/* خود نوار اسکرولی که حرکت می‌کند */
+::-webkit-scrollbar-thumb {
+  background: oklch(54.6% 0.245 262.881); /* رنگ اسکرول */
+  border-radius: 10px;
+}
+
+/* وقتی موس روی اسکرول میره */
+::-webkit-scrollbar-thumb:hover {
+    background: oklch(40% 0.245 262.881); /* رنگ اسکرول */
+}
